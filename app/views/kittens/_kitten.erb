@@ -1,0 +1,10 @@
+<div id="<%= dom_id kitten %>">
+  <p><b>Name: </b><%= kitten.name %></p>
+  
+  <p><b>Age: </b><%= kitten.age %></p>
+  
+  <p><b>Cuteness: </b><%= kitten.cuteness %></p>
+  
+  <p><b>Softness: </b><%= kitten.softness %></p>
+  <%= button_to "Destroy this kitten", kitten, method: :delete %>
+</div>
